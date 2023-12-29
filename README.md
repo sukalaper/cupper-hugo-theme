@@ -1,8 +1,5 @@
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-
-**WARNING:** This repo is no longer maintained. It's archived and read-only.
-
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+> [!WARNING]  
+> The original repo has been discontinued. [Read here](https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/README.md).
 
 # Cupper
 
@@ -39,7 +36,7 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 
 https://cupper-hugo-theme.netlify.app/
 
-## Minimum Hugo version
+## Minimum Hugo Version
 
 Hugo version `0.81.0` or higher is required. View the [Hugo releases](https://github.com/gohugoio/hugo/releases) and download the binary for your OS.
 
@@ -48,6 +45,7 @@ Hugo version `0.81.0` or higher is required. View the [Hugo releases](https://gi
 From the root of your site:
 
 ```
+git init
 git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme
 ```
 
@@ -66,6 +64,8 @@ From the root of `themes/cupper-hugo-theme/exampleSite`:
 ```
 hugo server --themesDir ../..
 ```
+
+If you get the error ```found no layout file for "html" for kind "taxonomy"``` delete the file ```hugo.toml```.
 
 ## Configuration
 
@@ -168,3 +168,4 @@ If you run into an issue that isn't answered by this documentation or the [`exam
 ## Credits
 
 Thank you to [Heydon Pickering](http://www.heydonworks.com) and [The Paciello Group](https://www.paciellogroup.com/) for creating the original Cupper project.
+
